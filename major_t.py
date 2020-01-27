@@ -3,10 +3,7 @@ from pygame import mixer
 import time
 import cv2
 from tkinter import *
-from twilio.rest import Client
 import tkinter.messagebox
-from geopy.geocoders import Nominatim
-import requests
 root=Tk()
 root.geometry('500x570')
 frame = Frame(root, relief=RIDGE, borderwidth=2)
