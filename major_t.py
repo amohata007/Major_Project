@@ -136,7 +136,7 @@ def webdetRec():
    cv2.destroyAllWindows()
    
 def alert():
-   mixer.init()
+   mixer.init() 
    alert=mixer.Sound('beep-07.wav')
    alert.play()
    time.sleep(0.1)
