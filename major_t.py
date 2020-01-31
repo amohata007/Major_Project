@@ -31,7 +31,7 @@ def anotherWin():
 menu = Menu(root)
 root.config(menu=menu)
 
-subm1 = Menu(menu)
+subm1 = Menu(menu) 
 menu.add_cascade(label="Tools",menu=subm1)
 subm1.add_command(label="Open CV Docs",command=hel)
 
