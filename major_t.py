@@ -198,5 +198,5 @@ but5=Button(frame,padx=5,pady=5,width=5,bg='white',fg='black',relief=GROOVE,text
 but5.place(x=210,y=478)
 
 
-root.mainloop()
+root.mainloop() 
 
